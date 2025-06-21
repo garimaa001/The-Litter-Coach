@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 11
+names: ['apple_fruit', 'banana_peel', 'cardboard_box', 'glass', 'mobile_phone', 'notebook', 'pen', 'plastic_bag', 'plastic_bottle', 'plastic_box', 'soda_can']
+
+roboflow:
+  workspace: garima-cj1dy
+  project: litter_coach
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/garima-cj1dy/litter_coach/dataset/6

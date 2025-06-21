@@ -1,0 +1,20 @@
+# data.yaml for The Litter Coach project
+
+# Paths to your dataset directories relative to your project root (The_Litter_Coach)
+train: data/Roboflow_Export/train/images
+val: data/Roboflow_Export/valid/images
+test: data/Roboflow_Export/test/images
+
+# Number of classes
+nc: 11
+
+# Class names in order as provided by Roboflow
+names: ['apple_fruit', 'banana_peel', 'cardboard_box', 'glass', 'mobile_phone', 'notebook', 'pen', 'plastic_bag', 'plastic_bottle', 'plastic_box', 'soda_can']
+
+# Roboflow export metadata (optional, but good to keep for reference)
+roboflow:
+  workspace: garima-cj1dy
+  project: litter_coach
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/garima-cj1dy/litter_coach/dataset/5

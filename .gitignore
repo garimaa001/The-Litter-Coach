@@ -1,0 +1,26 @@
+# Python virtual environment
+venv/
+.venv/
+env/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Ultralytics YOLOv8 runs and weights (they can be very large)
+runs/
+*.pt  # This will ignore all .pt files (your best.pt, last.pt, etc.)
+weights/ # Ignore a dedicated weights folder if you create one outside of runs/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Data folders you might have that are too large or sensitive
+data/ # Uncomment if you have a local 'data' folder you don't want pushed
+labels/ # If you have raw label files you don't want on git
+images/ # If you have raw images you don't want on git

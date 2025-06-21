@@ -1,0 +1,10 @@
+banana_peel
+plastic_bottle
+apple_fruit
+plastic_bag
+glass
+notebook
+pen
+mobile_phone
+plastic_box
+soda_can
