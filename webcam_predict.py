@@ -6,17 +6,17 @@ model_path = "C:\\Users\\Garima Bisht\\OneDrive\\Desktop\\The_Litter_Coach\\runs
 conf_threshold = 0.50
 
 # --- Biodegradability Mapping ---
-# Make sure these class names exactly match the names in your model.names
 biodegradability_map = {
     'banana_peel': 'Biodegradable',
     'plastic_bottle': 'Non-Biodegradable',
-    'soda_can': 'Non-Biodegradable', # Ensure this is correct for your labels
+    'soda_can': 'Non-Biodegradable', 
     'notebook': 'Biodegradable',
     'glass': 'Non-Biodegradable',
-    'apple': 'Biodegradable', # Assuming 'apple' is detected (whether fruit or peel)
-    # Add all other classes detected by your model here
-    'cardboard': 'Biodegradable', # Example
-    'plastic_bag': 'Non-Biodegradable' # Example
+    'apple_fruit': 'Biodegradable', 
+    'cardboard': 'Biodegradable', 
+    'plastic_bag': 'Non-Biodegradable' 
+    'plastic_box': 'Non-Biodegradable'
+    'pen': 'Non-Biodegradable'
 }
 
 # --- Load Model ---
