@@ -1,6 +1,6 @@
 The Litter Coach is an AI-powered object detection project designed to identify and classify various types of litter in images and real-time video. 
 Leveraging the YOLOv8 model, this initiative aims to foster environmental cleanliness and support more efficient waste management efforts.
-It currently detects common discarded items such as banana peels, plastic bottles, and other specified litter types, contributing to cleaner public spaces and raising awareness about waste segregation.
+It currently detects common discarded items such as banana peels, plastic bottles, and other specified litter types, contributing to cleaner public spaces and raising awareness about waste segregation. 
 
 The Litter Coach is an innovative AI project designed to foster environmental awareness and facilitate smarter waste management.
 By employing YOLOv8 for high-performance object detection, it can automatically detect and categorize common litter, making it a valuable tool for educating about cleanliness and supporting recycling initiatives.
